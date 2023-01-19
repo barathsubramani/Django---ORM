@@ -19,9 +19,25 @@ Write your own steps
 
 ## PROGRAM
 
-Include your code here
+from django.db import models
+from django.contrib import admin
+# Create your models here.
+```python
+class student(models.Model):
+    reference_no=models.CharField(max_length=75,help_text='Reference_No.')
+    name=models.CharField(max_length=100,help_text='Name')
+    email=models.EmailField(help_text='Email')
+    age=models.IntegerField(help_text='Age')
+    Class=models.IntegerField(help_text='Class')
+class studentAdmin(admin.ModelAdmin):
+    list_display=('reference_no','name','email','age','Class')
+
+
+
+```
 
 ## OUTPUT
+![model](webexp2.png)
 
 Include the screenshot of your admin page.
 

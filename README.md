@@ -10,12 +10,18 @@ Include your ER diagram here
 ## DESIGN STEPS
 
 ### STEP 1:
+Create a repository in github 
 
 ### STEP 2:
+Clone the repository in Thiea IDE
 
 ### STEP 3:
+Make the changes in the setting.py, admin.py and other files.
 
-Write your own steps
+## step 4:
+Run the server using the command
+
+
 
 ## PROGRAM
 
@@ -43,3 +49,4 @@ Include the screenshot of your admin page.
 
 
 ## RESULT
+Thus a program to develop a Django application to store and retrieve data from a database using Object Relational Mapping(ORM) is successfully executed.
